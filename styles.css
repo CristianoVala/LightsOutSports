@@ -51,7 +51,7 @@ html,body
 #check{display: none;}
 .navbar{
     width: 100vw;
-    background: url("./images/Navbar.jpg"), cover;
+    background: url("./images/Navbar.jpg") no-repeat cover center;
     height: 100px;
     padding: 1rem calc((50vw - 1600px) / 2);
     display: flex;
