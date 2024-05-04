@@ -115,8 +115,8 @@ html,body
     .open-menu, .close-menu{display:block;}
     #check:checked ~ .navbar__menu {right: 0;}
 }
-/* Hero page */
 .hero{
+    background: ;
     height: 90vh;
     background-position: center;
     padding: 1rem 2rem;
@@ -124,7 +124,6 @@ html,body
     align-items:center;
     justify-content:center;
     text-align:center;
-    flex-direction:row;
 }
 .hero__img{
     width:40vw;
@@ -160,15 +159,15 @@ html,body
     color: grey;
 }
 .button{
-    background: var(--yellow);
+    background: var(--green);
     border-radius:2rem;
     padding: 1rem 2rem;
     font-size: 1.2rem;
-    color: var(--blue);
+    color: white;
 }
 .button:hover{
     padding: 1.2rem 2.2rem;
-    border: solid 2px var(--blue);
+    border: solid 2px var(--red);
 }
 /* footer section*/
 .Dtech__tag{
