@@ -1,5 +1,5 @@
 :root{
-  --green:rgb(16, 65, 10);
+  --green:rgb(6, 40, 10);
   --red:rgb(128,0,0);
 }
 *{
@@ -66,7 +66,7 @@ html,body
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background:var(red);
+    background:var(--red);
     height:10px;
     position: sticky;
     top:60px;
@@ -165,11 +165,12 @@ html,body
     border-radius:2rem;
     padding: 1rem 2rem;
     font-size: 1.2rem;
-    color: var(--white);
+    color: white;
 }
 .button:hover{
     padding: 1.2rem 2.2rem;
-    border: solid 2px black;
+    border: solid 2px var(--green);
+     background: black;
 }
 /* footer section*/
 .Dtech__tag{
