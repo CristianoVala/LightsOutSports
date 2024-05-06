@@ -51,7 +51,8 @@ html,body
 #check{display: none;}
 .navbar{
     width: 100vw;
-    background: var(--green);
+    background: url("./images/Navbar.jpg"), var(--green);
+    background-size:cover;
     height: 60px;
     padding: 1rem calc((50vw - 1600px) / 2);
     display: flex;
@@ -102,7 +103,8 @@ html,body
         top: 0;
         right: -100%;
         z-index:100;
-        background-color: var(--green);
+        background: url("./images/Navbar.jpg"), var(--green);
+        background-size:cover;
         transition: all 0.2s ease-in-out;
     }
     .navbar__link{
