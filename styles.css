@@ -51,8 +51,8 @@ html,body
 #check{display: none;}
 .navbar{
     width: 100vw;
-    background: url("/images/Navbar.jpg") no-repeat cover center, var(--green);
-    height: 100px;
+    background: var(--green);
+    height: 60px;
     padding: 1rem calc((50vw - 1600px) / 2);
     display: flex;
     justify-content: space-between;
@@ -66,10 +66,10 @@ html,body
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background:var(--red);
+    background:var(red);
     height:10px;
     position: sticky;
-    top:100px;
+    top:60px;
     padding: 1rem;
     z-index:90;
     font-size: 0.9rem;
@@ -88,12 +88,11 @@ html,body
     padding: 0rem 0.5rem;
 }
 .navbar__link:hover{
-    color: black;
+    color: var(--red);
     text-decoration: underline;
 }
 @media screen and (max-width: 768px){
     .navbar__menu{
-        background: url("/images/Navbar.jpg") no-repeat cover center;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -103,6 +102,7 @@ html,body
         top: 0;
         right: -100%;
         z-index:100;
+        background-color: var(--green);
         transition: all 0.2s ease-in-out;
     }
     .navbar__link{
@@ -116,8 +116,9 @@ html,body
     .open-menu, .close-menu{display:block;}
     #check:checked ~ .navbar__menu {right: 0;}
 }
+/* Hero page */
 .hero{
-    background:rgb(38,40,38);
+    background: rgb(38,40,38);
     height: 90vh;
     background-position: center;
     padding: 1rem 2rem;
@@ -164,11 +165,11 @@ html,body
     border-radius:2rem;
     padding: 1rem 2rem;
     font-size: 1.2rem;
-    color: white;
+    color: var(--white);
 }
 .button:hover{
     padding: 1.2rem 2.2rem;
-    border: solid 2px var(--red);
+    border: solid 2px black;
 }
 /* footer section*/
 .Dtech__tag{
