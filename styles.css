@@ -28,8 +28,8 @@ html,body
 }
 
 .logoimg{
-    height:60px;
-    width:200px;
+    height:90px;
+    width:230px;
 }
 /* navbar section */
 .open-menu, .close-menu{
@@ -53,7 +53,7 @@ html,body
     width: 100vw;
     background: url("./images/Navbar.jpg"), var(--green);
     background-size:cover;
-    height: 60px;
+    height: 100px;
     padding: 1rem calc((50vw - 1600px) / 2);
     display: flex;
     justify-content: space-between;
@@ -70,7 +70,7 @@ html,body
     background:var(--red);
     height:10px;
     position: sticky;
-    top:60px;
+    top:100px;
     padding: 1rem;
     z-index:90;
     font-size: 0.9rem;
