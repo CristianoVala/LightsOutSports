@@ -1,5 +1,5 @@
 :root{
-  --green:rgb(0, 255, 50);
+  --green:rgb(16, 65, 10);
   --red:rgb(128,0,0);
 }
 *{
@@ -51,7 +51,7 @@ html,body
 #check{display: none;}
 .navbar{
     width: 100vw;
-    background: url("/images/Navbar.jpg") no-repeat cover center;
+    background: url("/images/Navbar.jpg") no-repeat cover center, var(--green);
     height: 100px;
     padding: 1rem calc((50vw - 1600px) / 2);
     display: flex;
@@ -117,7 +117,7 @@ html,body
     #check:checked ~ .navbar__menu {right: 0;}
 }
 .hero{
-    background: ;
+    background:rgb(38,40,38);
     height: 90vh;
     background-position: center;
     padding: 1rem 2rem;
@@ -152,12 +152,12 @@ html,body
     font-size: clamp(3rem, 8vw, 7rem);
     text-transform: uppercase;
     margin-bottom: 1rem; 
-    color: black;
+    color: white;
 }
 .hero__content p{
     font-size: clamp(1rem, 4vw, 2.5rem);
     margin-bottom: 3rem; 
-    color: grey;
+    color: white;
 }
 .button{
     background: var(--green);
