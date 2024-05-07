@@ -84,12 +84,12 @@ html,body
 }
 .navbar__link{
     color: white;
-    font-size: clamp(0.5rem, 5vw, 1rem);
+    font-size: clamp(0.8rem, 5vw, 1.5rem);
     text-decoration: none;
     padding: 0rem 0.5rem;
 }
 .navbar__link:hover{
-    color: var(--red);
+    background: rgba(70,8,3,0.3);
     text-decoration: underline;
 }
 @media screen and (max-width: 768px){
