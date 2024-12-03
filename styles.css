@@ -122,6 +122,7 @@ html,body
 }
 /* Hero page */
 .hero{
+  background: url(./images/Herobackground.jpg), rgba(0,0,0,0.3);
     height: 90vh;
     background-position: center;
     padding: 1rem 2rem;
