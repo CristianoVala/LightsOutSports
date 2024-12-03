@@ -1,6 +1,6 @@
 :root{
-  --green:rgb(5, 101, 56);
-  --red:rgb(70,8,3);
+  --blue:#82EEFD;
+  --pink:rgb(252,15,192);
 }
 *{
     box-sizing: border-box;
@@ -21,7 +21,6 @@
 }
 html,body
 {
-    background: rgb(38,40,38);
     width: 100%;
     margin: 0px;
     padding: 0px;
@@ -52,7 +51,7 @@ html,body
 #check{display: none;}
 .navbar{
     width: 100vw;
-    background: url("./images/Navbar.jpg"), var(--green);
+    background: var(--blue);
     background-size:cover;
     height: 100px;
     padding: 1rem calc((50vw - 1600px) / 2);
@@ -68,7 +67,7 @@ html,body
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background:var(--red);
+    background:var(--pink);
     height:10px;
     position: sticky;
     top:100px;
@@ -104,7 +103,7 @@ html,body
         top: 0;
         right: -100%;
         z-index:100;
-        background: url("./images/Navbar.jpg"), var(--green);
+        background:var(--blue);
         background-size:cover;
         transition: all 0.2s ease-in-out;
     }
