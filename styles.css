@@ -120,7 +120,6 @@ html,body
 }
 /* Hero page */
 .hero{
-    background: rgb(38,40,38);
     height: 90vh;
     background-position: center;
     padding: 1rem 2rem;
@@ -156,7 +155,13 @@ html,body
     font-size: clamp(3rem, 8vw, 7rem);
     text-transform: uppercase;
     margin-bottom: 1rem; 
-    color: white;
+    color: var(--blue);
+}
+.hero__content b{
+    font-size: clamp(3rem, 8vw, 7rem);
+    text-transform: uppercase;
+    margin-bottom: 1rem; 
+    color: var(--pink);
 }
 .hero__content p{
     font-size: clamp(1rem, 4vw, 2.5rem);
@@ -164,7 +169,7 @@ html,body
     color: white;
 }
 .button{
-    background: var(--green);
+    background: var(--blue);
     border-radius:2rem;
     padding: 1rem 2rem;
     font-size: 1.2rem;
@@ -172,7 +177,7 @@ html,body
 }
 .button:hover{
     padding: 1.2rem 2.2rem;
-    border: solid 2px var(--green);
+    border: solid 2px var(--pink);
     background: black;
 }
 
