@@ -1,6 +1,7 @@
 :root{
   --blue:#82EEFD;
   --pink:rgb(252,15,192);
+  --grey:#696969;
 }
 *{
     box-sizing: border-box;
@@ -21,6 +22,7 @@
 }
 html,body
 {
+    background: var(--grey);
     width: 100%;
     margin: 0px;
     padding: 0px;
