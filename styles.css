@@ -210,8 +210,8 @@ html,body
     padding: 1rem;
 }
 .Aboutus__info p{
-    margin: 1rem;
-    padding: 1rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
     font-size: clamp(1rem, 4vw, 1.5rem);
     color: white;
 }
