@@ -1,1 +1,103 @@
-j
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lights Out Sports About Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+    crossorigin="anonymous">
+</head>
+<body>
+     <style>
+        ::-webkit-scrollbar{
+            display: none;
+        }
+    </style>
+<!-- Navbar -->
+    <nav class="navbar">
+        <a href="#" class="navbar__logo"><img src="./images/Perfect Lawn Logo.png" alt="Logo" class="logoimg"/></a>
+        <input type="checkbox" id="check">
+        <div class="navbar__menu">
+            <a href="#" class="navbar__link">Home</a>
+            <a href="/AboutUs.html" class="navbar__link">About Us</a>
+            <a href="/Training.html" class="navbar__link">Training</a>
+            <a href="#Waiver" class="navbar__link">Waiver</a>
+            <a href="#ContactUs" class="navbar__link">Contact Us</a>
+            <a href="/EventPackages.html" class="navbar__link">Event Packages</a>
+            <a href="/RulesandRegulations.html" class="navbar__link">Rules and Regulations</a>
+            <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+        </div>
+        <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+    </nav>
+        <div class="nav__bottom">
+        </div>
+   <div class="AboutUs">
+     <div class="Title">
+       <h1>About Us</h1>
+     </div>
+     <div class="Aboutus__info">
+       <p>Host your next event or training at LIGHTS OUT SPORTS, the IT spot in Alliston for Glow in the Dark Entertainment.</p>
+       <p>Two separate spaces to book your event, one has synthetic ice and the other has artifical turf. 
+         A variety of sports can be played in these areas: soccer, lacross, flag football, ultimate frisbee, dodgeball,
+         field hockey, lawn bowling, pickleball, badminton, hockey, skating, curling. </p>
+       <p>Glow in the dark is fun for celebrations and events such as birthday parties, corporate events, team building, 
+         community events for a fun time out together. The glow in the dark can also be turned off for more formal training and developmental sessions. </p>
+     </div>
+   </div>
+  <!--Footer section-->
+    <div id="footer" class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__desc">
+                <h1>Perfect Lawn Landscaping</h1>
+                <p>.</p>
+                <p id="phone">Phone numbner</p>
+                <p id="email">email@gmail.com</p>
+            </div>
+            <div class="footer__links">
+                <h2 class="footer__title">Contact Us</h2>
+                <a href="#Contacts" class="footer__link">Contact</a>
+                <a href="#Contacts" class="footer__link">Support</a>
+            </div>
+        </div>
+        <div class="footer__wrapper">
+            <div class="footer__links">
+                <h2 class="footer__title">Social Media</h2>
+                <a href="#Contacts" class="footer__link">Instagram</a>
+                <a href="#Contacts" class="footer__link">Youtube</a>
+            </div>
+            <div class="footer__links">
+                <h2 class="footer__title">Services</h2>
+                <a href="#Services" class="footer__link">Pricing</a>
+                <a href="#Services" class="footer__link">Features</a>
+            </div>
+        </div>
+     <a href="https://dynamic-technologies.ca"><img class="Dtech__tag" src="./images/Dtech tag.png" alt=" " class="d-tech"/></a>
+    </div>
+    
+   <script type="text/javascript">
+        window.addEventListener('scroll', reveal);
+
+        function reveal(){
+            var reveals = document.querySelectorAll('.reveal');
+
+            for(var i = 0; i < reveals.length; i++){
+                
+                var windowheight = window.innerHeight;
+                var revealtop = reveals[i].getBoundingClientRect().top;
+                var revealpoint = 150;
+
+                if(revealtop < windowheight - revealpoint){
+                    reveals[i].classList.add('active');
+                }
+                else{
+                    reveals[i].classList.remove('active');
+                }
+            }
+        }
+    </script>
+    <script src="app.js"></script>
+</body>
+</html>
