@@ -194,7 +194,7 @@ html,body
     padding: 1rem;
 }
 .Title{
-    font-size: clamp(3rem, 8vw, 7rem);
+    font-size: clamp(2rem, 8vw, 4rem);
     text-transform: uppercase;
     color: white;
 }
