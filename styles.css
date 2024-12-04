@@ -192,6 +192,7 @@ html,body
     flex-direction: column;
     margin: 1rem;
     padding: 1rem;
+    width: 100vw;
 }
 .Title{
     font-size: clamp(2rem, 8vw, 4rem);
