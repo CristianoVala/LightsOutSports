@@ -188,7 +188,6 @@ html,body
     display:flex;
     justify-content:center;
     align-items:center;
-    text-align:left;
     flex-direction: column;
     margin: 1rem;
     padding: 1rem;
@@ -201,8 +200,8 @@ html,body
 }
 .Aboutus__info{
     display:flex;
-    justify-content:left;
-    align-items:left;
+    justify-content:center;
+    align-items:center;
     text-align:left;
     flex-direction: column;
     border-radius: 2rem;
@@ -221,7 +220,6 @@ html,body
     display:flex;
     justify-content:center;
     align-items:center;
-    text-align:center;
     flex-direction: column;
     margin: 1rem;
     padding: 1rem;
