@@ -184,7 +184,36 @@ html,body
     border: solid 2px var(--pink);
     background: black;
 }
-
+.AboutUs{
+    display:flex;
+    justify-content:left;
+    align-items:left;
+    text-align:left;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 1rem;
+}
+.Title{
+    font-size: 3rem;
+    color: white;
+}
+.Aboutus__info{
+    display:flex;
+    justify-content:left;
+    align-items:left;
+    text-align:left;
+    flex-direction: column;
+    border-radius: 2rem;
+    background: #808080;
+    margin: 1rem;
+    padding: 1rem;
+}
+.Aboutus__info p{
+    margin: 1rem;
+    padding: 1rem;
+    font-size: clamp(1rem, 4vw, 1.5rem);
+    color: white;
+}
 /* footer section*/
 .Dtech__tag{
     width: 50%;
