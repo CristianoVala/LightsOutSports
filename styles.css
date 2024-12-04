@@ -194,7 +194,8 @@ html,body
     padding: 1rem;
 }
 .Title{
-    font-size: 3rem;
+    font-size: clamp(3rem, 8vw, 7rem);
+    text-transform: uppercase;
     color: white;
 }
 .Aboutus__info{
