@@ -186,8 +186,8 @@ html,body
 }
 .AboutUs{
     display:flex;
-    justify-content:left;
-    align-items:left;
+    justify-content:center;
+    align-items:center;
     text-align:left;
     flex-direction: column;
     margin: 1rem;
