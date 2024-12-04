@@ -189,7 +189,7 @@ html,body
     justify-content:center;
     align-items:center;
     flex-direction: column;
-    padding: 2rem 0rem;
+    padding: 2rem;
     width: 100vw;
 }
 .Title{
@@ -205,10 +205,10 @@ html,body
     flex-direction: column;
     border-radius: 2rem;
     background: #808080;
-    padding: 1rem 0rem;
+    padding: 1rem;
 }
 .Aboutus__info p{
-    padding: 1rem 0rem;
+    padding: 1rem;
     font-size: clamp(1rem, 4vw, 1.5rem);
     color: white;
 }
@@ -218,7 +218,7 @@ html,body
     justify-content:center;
     align-items:center;
     flex-direction: column;
-    padding: 1rem 0rem;
+    padding: 1rem;
     width: 100vw;
 }
 .Title{
@@ -234,10 +234,10 @@ html,body
     flex-direction: column;
     border-radius: 2rem;
     background: #808080;
-    padding: 1rem 0rem;
+    padding: 1rem;
 }
 .Aboutus__info p{
-    padding: 1rem 0rem;
+    padding: 1rem;
     font-size: clamp(1rem, 4vw, 1.5rem);
     color: white;
 }
