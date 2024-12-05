@@ -190,7 +190,7 @@ html,body
     align-items:center;
     flex-direction: column;
     padding: 2rem;
-    width: 100vw;
+    width: 50vw;
 }
 .Title{
     font-size: clamp(2rem, 8vw, 4rem);
