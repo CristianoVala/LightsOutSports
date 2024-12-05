@@ -34,3 +34,57 @@
     </nav>
         <div class="nav__bottom">
         </div>
+ <!--Footer section-->
+    <div id="footer" class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__desc">
+                <h1>Perfect Lawn Landscaping</h1>
+                <p>.</p>
+                <p id="phone">Phone numbner</p>
+                <p id="email">email@gmail.com</p>
+            </div>
+            <div class="footer__links">
+                <h2 class="footer__title">Contact Us</h2>
+                <a href="#Contacts" class="footer__link">Contact</a>
+                <a href="#Contacts" class="footer__link">Support</a>
+            </div>
+        </div>
+        <div class="footer__wrapper">
+            <div class="footer__links">
+                <h2 class="footer__title">Social Media</h2>
+                <a href="#Contacts" class="footer__link">Instagram</a>
+                <a href="#Contacts" class="footer__link">Youtube</a>
+            </div>
+            <div class="footer__links">
+                <h2 class="footer__title">Services</h2>
+                <a href="#Services" class="footer__link">Pricing</a>
+                <a href="#Services" class="footer__link">Features</a>
+            </div>
+        </div>
+     <a href="https://dynamic-technologies.ca"><img class="Dtech__tag" src="./images/Dtech tag.png" alt=" " class="d-tech"/></a>
+    </div>
+    
+   <script type="text/javascript">
+        window.addEventListener('scroll', reveal);
+
+        function reveal(){
+            var reveals = document.querySelectorAll('.reveal');
+
+            for(var i = 0; i < reveals.length; i++){
+                
+                var windowheight = window.innerHeight;
+                var revealtop = reveals[i].getBoundingClientRect().top;
+                var revealpoint = 150;
+
+                if(revealtop < windowheight - revealpoint){
+                    reveals[i].classList.add('active');
+                }
+                else{
+                    reveals[i].classList.remove('active');
+                }
+            }
+        }
+    </script>
+    <script src="app.js"></script>
+</body>
+</html>
