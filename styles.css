@@ -297,13 +297,15 @@ html,body
 }
 @media screen and (max-width: 768px){
   .Contact__Container{
+    height: 130vh;
+    width: 100vw;
     flex-direction: column;
     justify-content: center;
     align-items:center;
   }
   .map{
     width:90vw;
-    height:85vw;
+    height:60vw;
   }
   .contact-left{
     justify-content: center;
