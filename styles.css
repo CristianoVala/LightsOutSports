@@ -194,7 +194,7 @@ html,body
     width: 50vw;
 }
 .Title{
-    font-size: clamp(1.5rem, 8vw, 4rem);
+    font-size: clamp(1.5rem, 8vw, 3rem);
     text-transform: uppercase;
     color: white;
     padding: 1rem;
@@ -224,9 +224,10 @@ html,body
     width: 100vw;
 }
 .Title{
-    font-size: clamp(2rem, 8vw, 4rem);
+    font-size: clamp(1.5rem, 8vw, 3rem);
     text-transform: uppercase;
     color: white;
+     padding: 1rem;
 }
 .Aboutus__info{
     display:flex;
