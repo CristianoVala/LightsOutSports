@@ -121,11 +121,12 @@ html,body
     #check:checked ~ .navbar__menu {right: 0;}
 }
 .Calendar{
-  width: 90vw;
-  height: 100vw;
+  width: 100vw;
+  height: 100vh;
   background: white;
   border: none;
   border-radius: 2rem;
+  padding: 2rem;
 }
 /* Hero page */
 .hero{
