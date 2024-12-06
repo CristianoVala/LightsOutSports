@@ -120,6 +120,12 @@ html,body
     .open-menu, .close-menu{display:block;}
     #check:checked ~ .navbar__menu {right: 0;}
 }
+.Calendar{
+  width: 100vw;
+  background: white;
+  border: none;
+  border-radius: 2rem;
+}
 /* Hero page */
 .hero{
     background:var(--grey);
