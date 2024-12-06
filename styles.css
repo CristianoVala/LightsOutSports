@@ -249,7 +249,7 @@ html,body
 }
 }
 /* Contact page */
-.contact-container{
+.Contact__Container{
   height: 100vh;
   display:flex;
   flex-direction: rows;
