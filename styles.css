@@ -262,13 +262,13 @@ html,body
   align-items: start;
   gap: 20px;
 }
-.contact__title h2{
+.Contact__Title h2{
     text-transform: uppercase;
     color: white;
     padding: 1rem;
     font-size: 2rem;
 }
-.contact__title p{
+.Contact__Title p{
     text-transform: uppercase;
     color: white;
     padding: 0.5rem;
