@@ -178,6 +178,7 @@ html,body
     padding: 1rem 2rem;
     font-size: 1.2rem;
     color: white;
+    margin-bottom: 1.5rem;
 }
 .button:hover{
     padding: 1.2rem 2.2rem;
@@ -196,6 +197,7 @@ html,body
     font-size: clamp(1.5rem, 8vw, 4rem);
     text-transform: uppercase;
     color: white;
+    padding: 1rem;
 }
 .Aboutus__info{
     display:flex;
