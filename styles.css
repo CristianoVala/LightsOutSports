@@ -269,8 +269,8 @@ html,body
   flex-direction: column;
   justify-content:center;
   align-items:center;
-  text-align:center
-  padding 1rem;
+  text-align:center;
+  padding: 1rem;
 }
 .Contact__Title h2{
     text-transform: uppercase;
