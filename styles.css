@@ -201,7 +201,7 @@ html,body
     padding: 1rem;
 }
 .Title h1{
-    font-size: clamp(2rem, 8vw, 3rem);
+    font-size: clamp(2rem, 8vw, 5rem);
 }
 .Aboutus__info{
     display:flex;
