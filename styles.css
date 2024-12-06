@@ -123,7 +123,7 @@ html,body
 /* Hero page */
 .hero{
     background:var(--grey);
-    height: 100vh;
+    height: 100vw;
     background-position: center;
     background-size: contain;
     padding: 1rem 2rem;
