@@ -121,7 +121,8 @@ html,body
     #check:checked ~ .navbar__menu {right: 0;}
 }
 .Calendar{
-  width: 100vw;
+  width: 90vw;
+  height: 100vw;
   background: white;
   border: none;
   border-radius: 2rem;
