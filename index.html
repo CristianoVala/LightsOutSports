@@ -59,29 +59,21 @@
         <a href="#Contacts" class="button">RESERVE YOUR EVENT HERE</a>
    </div>
     <!--Contacts Section-->
-    <div class="email" id="ContactUs">
-        <div class="email__content">
-            <h1>Contact us with any questions you may have, we are here to help.</h1>
-                <p>Fill out the form below</p> 
-                <p>OR</p> 
-                <p>text or call us at 416 884 9191</p>
-                <p>OR</p> 
-                <p>email us at lights.out.sports@outlook.com </p>
-            <div class="form__wrap">
-                <form target="_blank" action="" method="POST">
-                    <input type="text" name="name" placeholder="Name" required>
-                    <input type="email" name="email" placeholder="Enter your email" required>
-                    <input type="phone" name="phone" placeholder="Enter your phone number" required>
-                    <select id="service" class="form-control" name="subject" required>
-                      <option value="Select" type="placeholder"> --Select Your Package--</option>
-                      <option value="Birthday Party Package">BIRTHDAY PARTY PACKAGE </option>
-                      <option value="Corporate Event or Team Building">CORPORATE EVENT OR TEAM BUILDING </option>
-                    </select>
-                    <input id="service" class="form-control" name="Message" placeholder="Enter a short message detailing what you need">
-                    <button class="button" type="submit">Submit</button>
-               </form>
+    <div class="Contact__Container" id="ContactUs">
+        <form action="" class="contact-left">
+            <div class="Contact__Title">
+                <h2>Contact Us Today</h2>
+                <p> </p>
             </div>
-         </div>
+            <input type="text" name="name" placholder="Enter your name" class="Contact__input" required>
+            <input type="email" name="email" placholder="Enter your email" class="Contact__input" required>
+            <input type="phone" name="phone" placholder="Enter your phone #" class="Contact__input">
+            <textarea name="message" placeholder="What would you like to know?" class="Contact__input" required></textarea>
+            <button type="submit" class="button">Submit</button>
+        </form>
+        <div class="contact-right">
+            
+        </div>
     </div>
   <!--Footer section-->
     <div id="footer" class="footer">
