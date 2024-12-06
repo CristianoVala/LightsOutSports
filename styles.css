@@ -249,6 +249,45 @@ html,body
 }
 }
 /* Contact page */
+.contact-container{
+  height: 100vh;
+  display:flex;
+  flex-direction: rows;
+  align-items:center;
+  justify-content: space-evenly;
+}
+.contact-left{
+  display: flex;
+  flex-direction: columns;
+  align-items: start;
+  gap: 20px;
+}
+.contact__title h2{
+    text-transform: uppercase;
+    color: white;
+    padding: 1rem;
+    font-size: 2rem;
+}
+.contact__title p{
+    text-transform: uppercase;
+    color: white;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+.contact__inputs{
+  width: 45vw;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding-left: 2.5rem;
+  color: var(--pink);
+  border-radius: 2rem;
+}
+.contact-left textarea{
+  height: 140px;
+  padding-top: 1.5rem;
+  border-radius: 2rem;
+}
 
 /* footer section*/
 .Dtech__tag{
