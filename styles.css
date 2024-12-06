@@ -289,11 +289,21 @@ html,body
   padding-top: 1.5rem;
   border-radius: 2rem;
 }
+.map{
+ border:0; 
+ border-radius:2rem;
+  width:45vw;
+  height:30vw;
+}
 @media screen and (max-width: 768px){
   .Contact__Container{
     flex-direction: column;
     justify-content: center;
     align-items:center;
+  }
+  .map{
+    width:90vw;
+    height:85vw;
   }
   .contact-left{
     justify-content: center;
