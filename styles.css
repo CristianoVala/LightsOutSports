@@ -307,8 +307,8 @@ html,body
   }
   .Contact__input{
      width: 90vw;
-    height: 50px;
-     padding-left: 0rem;
+     height: 50px;
+     padding-left: 1.5rem;
   }
 }
 /* footer section*/
