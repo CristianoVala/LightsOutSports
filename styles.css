@@ -144,6 +144,7 @@ html,body
   text-align:center;
 }
 .Payment h1{
+  text-transform: uppercase;
   font-size: clamp(2rem, 4vw, 4rem);
   color:white;
 }
