@@ -255,10 +255,11 @@ html,body
   display:flex;
   align-items:center;
   justify-content: space-evenly;
+  flex-direction:row;
 }
 .contact-left{
   display: flex;
-  flex-direction: columns;
+  flex-direction:column;
   align-items: start;
   gap: 20px;
 }
@@ -266,13 +267,13 @@ html,body
     text-transform: uppercase;
     color: white;
     padding: 1rem;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 .Contact__Title p{
     text-transform: uppercase;
     color: white;
     padding: 0.5rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 .Contact__input{
   width: 45vw;
@@ -288,7 +289,28 @@ html,body
   padding-top: 1.5rem;
   border-radius: 2rem;
 }
-
+@media screen and (max-width: 768px){
+  .Contact__Container{
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+  }
+  .contact-left{
+    justify-content: center;
+    align-items:center;
+  }
+  .Contact__Title h2{
+    font-size: 2rem;
+  }
+  .Contact__Title p{
+    font-size: 1rem;
+  }
+  .Contact__input{
+     width: 90vw;
+    height: 50px;
+     padding-left: 0rem;
+  }
+}
 /* footer section*/
 .Dtech__tag{
     width: 50%;
