@@ -269,11 +269,11 @@ html,body
   justify-content:center;
   align-items:center;
   text-align:center
+  padding 1rem;
 }
 .Contact__Title h2{
     text-transform: uppercase;
     color: white;
-    padding: 1rem;
     font-size: clamp(2rem, 8vw, 5rem);
 }
 .Contact__Title p{
@@ -299,7 +299,7 @@ html,body
 .map{
  border:0; 
  border-radius:2rem;
-  width:45vw;
+  width:35vw;
   height:30vw;
 }
 @media screen and (max-width: 768px){
