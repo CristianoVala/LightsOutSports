@@ -250,15 +250,11 @@ html,body
 }
 /* Contact page */
 .email{
-    height: 120vh;
     width: 50vw;
-    background-position: center;
-    background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
     display: flex;
     justify-content: center;
     align-items: center;
-    scroll-snap-align: start;
 }
 .email__content{
     display: flex;
@@ -285,8 +281,8 @@ form{
 .form__wrap input{
     padding: 1rem 1.5rem;
     outline: none;
-    width: 350px;
-    height: 50px;
+    width: 80%;
+    height: 5%;
     border: none;
     margin-right: 1rem;
     border-radius: 2rem;
@@ -322,7 +318,6 @@ span{
     button{
         border: none;
         width: 100%;
-        min-width: 350px;
     }
 }
 @media screen and (max-width: 400px){
