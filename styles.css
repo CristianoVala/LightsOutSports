@@ -267,7 +267,7 @@ html,body
     text-transform: uppercase;
     color: white;
     padding: 1rem;
-    font-size: 3rem;
+    font-size: clamp(2rem, 8vw, 5rem);
 }
 .Contact__Title p{
     text-transform: uppercase;
@@ -310,9 +310,6 @@ html,body
   .contact-left{
     justify-content: center;
     align-items:center;
-  }
-  .Contact__Title h2{
-    font-size: 2rem;
   }
   .Contact__Title p{
     font-size: 1rem;
