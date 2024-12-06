@@ -193,14 +193,14 @@ html,body
     width: 50vw;
 }
 .Title{
-    font-size: clamp(2rem, 8vw, 4rem);
+    font-size: clamp(1.5rem, 8vw, 4rem);
     text-transform: uppercase;
     color: white;
 }
 .Aboutus__info{
     display:flex;
     justify-content:center;
-    align-items:center;
+    align-items:left;
     text-align:left;
     flex-direction: column;
     border-radius: 2rem;
