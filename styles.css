@@ -263,6 +263,13 @@ html,body
   align-items: start;
   gap: 20px;
 }
+.Contact__Title{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  text-align:center
+}
 .Contact__Title h2{
     text-transform: uppercase;
     color: white;
