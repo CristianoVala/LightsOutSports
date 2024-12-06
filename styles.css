@@ -251,6 +251,7 @@ html,body
 /* Contact page */
 .email{
     height: 120vh;
+    width: 50vw;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
@@ -296,6 +297,17 @@ span{
     display: block;
 }
 @media screen and (max-width: 2000px){
+  .email{
+    height: 120vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0.5rem calc((100vw - 1200px) / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
     .form__wrap{
         display: flex;
         flex-direction: column;
