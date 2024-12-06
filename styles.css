@@ -157,13 +157,13 @@ html,body
     text-align:center;
 }
 .hero__content h1{
-    font-size: clamp(3rem, 8vw, 7rem);
+    font-size: clamp(4rem, 8vw, 7rem);
     text-transform: uppercase;
     margin-bottom: 1rem; 
     color: var(--blue);
 }
 .hero__content b{
-    font-size: clamp(3rem, 8vw, 7rem);
+    font-size: clamp(4rem, 8vw, 7rem);
     text-transform: uppercase;
     margin-bottom: 1rem; 
     color: var(--pink);
@@ -196,10 +196,12 @@ html,body
     width: 50vw;
 }
 .Title{
-    font-size: clamp(1.5rem, 8vw, 2rem);
     text-transform: uppercase;
     color: white;
     padding: 1rem;
+}
+.Title h1{
+    font-size: clamp(2rem, 8vw, 3rem);
 }
 .Aboutus__info{
     display:flex;
@@ -226,7 +228,6 @@ html,body
     width: 100vw;
 }
 .Title{
-    font-size: clamp(1.5rem, 8vw, 1.8rem);
     text-transform: uppercase;
     color: white;
     padding: 1rem;
