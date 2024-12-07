@@ -79,13 +79,13 @@ html,body
     color:white;
 }
 .navbar__logo{
-    color: white;
+    color: var(--grey);
     text-decoration: none;
     padding-left: 0.5rem;
     font-size: 1rem;
 }
 .navbar__link{
-    color: white;
+    color: var(--grey);
     font-size: clamp(0.8rem, 5vw, 1.5rem);
     text-decoration: none;
     padding: 0rem 0.5rem;
