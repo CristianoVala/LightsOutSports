@@ -234,6 +234,17 @@ html,body
     border: solid 2px var(--pink);
     background: black;
 }
+.Container{
+  display:flex;
+  justify-content:space-evenly;
+  align-items:center;
+}
+.about__img{
+  width: 30vw;
+  padding: 1rem;
+  border: none;
+  border-radius: 2rem;
+}
 .AboutUs{
     display:flex;
     justify-content:center;
