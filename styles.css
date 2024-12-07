@@ -108,6 +108,7 @@ html,body
         background:var(--blue);
         background-size:cover;
         transition: all 0.2s ease-in-out;
+         overflow-y: scroll;
     }
     .navbar__link{
         padding:10px;
@@ -189,6 +190,7 @@ html,body
 @media screen and (max-width: 768px){
     .hero{
         flex-direction:column;
+        height: 90vh;
     }
     .hero__img{
         width:70vw;
