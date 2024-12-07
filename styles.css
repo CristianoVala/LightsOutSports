@@ -395,11 +395,13 @@ html,body
     font-size: 1.5rem;
 }
 .footer__desc p{
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
+  color:var(--pink);
 }
 #phone{
     font-weight: bold;
     font-size: 1.2rem;
+    color:var(--pink);
 }
 .footer__wrapper{
     display: grid;
