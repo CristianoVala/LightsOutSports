@@ -398,13 +398,6 @@ html,body
   margin-bottom: 1rem;
   color:var(--pink);
 }
-.footer__desc hr{
-  border:none;
-  width:90vw;
-  heigth: 5px;
-  background-color: var(--pink);
-  border-radius: 10px;
-}
 #phone{
     font-weight: bold;
     font-size: 1.2rem;
