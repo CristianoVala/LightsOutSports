@@ -398,10 +398,11 @@ html,body
     height: 90%;
 }
 .footer{
+    background-color: black;
     padding: 5rem calc((100vw - 1100px) / 2);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    color: black;
+    color: white;
     border: solid 2px var(--pink);
 }
 .footer__desc{
@@ -434,10 +435,11 @@ html,body
 .footer__title{
     font-size: 14px;
     margin-bottom: 16px;
+    color: white;
 }
 .footer__link{
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 14px;
     margin-bottom: 0.5rem;
     transition: 0.3s ease-in-out;
@@ -458,6 +460,7 @@ html,body
         text-align:center;
     }
     .footer{
+        background-color: black;
         position:relative;
         display:flex;
         justify-content:center;
