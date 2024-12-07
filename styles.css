@@ -277,6 +277,9 @@ html,body
     color: white;
 }
 @media screen and (max-width: 768px){
+  .about__img{
+    display:none;
+  }
   .AboutUs{
     display:flex;
     justify-content:center;
