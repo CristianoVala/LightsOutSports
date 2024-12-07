@@ -437,7 +437,7 @@ html,body
         justify-content:center;
         align-items:center;
         flex-direction: column;
-        text-align: center;
+        text-align:center;
     }
     .footer{
         position:relative;
@@ -445,7 +445,7 @@ html,body
         justify-content:center;
         align-items:center;
         flex-direction: column;
-        text-align: center;
+        text-align:center;
     }
 }
 @media screen and (max-width:800px){
@@ -456,10 +456,11 @@ html,body
         justify-content:center;
         align-items:center;
         flex-direction: column;
-        text-align: center;
+        text-align:center;
     }
     .footer__links{
         padding: 1rem;
+        text-align:center;
     }
 }
 .reveal{
