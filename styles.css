@@ -225,7 +225,7 @@ html,body
     background: var(--blue);
     padding: 1rem 2rem;
     font-size: 1.2rem;
-    color: white;
+    color: var(--grey);
     margin-bottom: 1.5rem;
     margin-top: 1rem;
 }
