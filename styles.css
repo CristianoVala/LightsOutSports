@@ -246,6 +246,7 @@ html,body
   padding: 1rem;
   border: none;
   border-radius: 2rem;
+  object-fit: contain;
 }
 .AboutUs{
     display:flex;
