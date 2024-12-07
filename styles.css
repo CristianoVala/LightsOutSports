@@ -170,7 +170,7 @@ html,body
 /* Hero page */
 .hero{
     background:var(--grey);
-    height: 100vh;
+    height: 115vh;
     width: 100vw;
     background-position: center;
     background-size: contain;
