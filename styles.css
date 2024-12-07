@@ -385,6 +385,7 @@ html,body
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     color: black;
+    border: solid 2px var(--pink);
 }
 .footer__desc{
     padding: 0 2rem;
@@ -446,6 +447,7 @@ html,body
         align-items:center;
         flex-direction: column;
         text-align:center;
+        border: solid 2px var(--pink);
     }
 }
 @media screen and (max-width:800px){
