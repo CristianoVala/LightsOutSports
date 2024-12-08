@@ -246,6 +246,7 @@ html,body
   justify-content:space-evenly;
   align-items:center;
   flex-direction:column;
+  gap: 2rem;
 }
 .about__img{
   display: block;
