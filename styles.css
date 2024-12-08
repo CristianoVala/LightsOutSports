@@ -246,7 +246,7 @@ html,body
   justify-content:space-evenly;
   align-items:center;
   flex-direction:column;
-  gap: 4rem;
+  gap: 3rem;
 }
 .about__img{
   display: block;
@@ -256,6 +256,7 @@ html,body
   border: none;
   border-radius: 2rem;
   object-fit: cover;
+  margin-bottom: 2rem;
 }
 .package{
   text-align:left;
