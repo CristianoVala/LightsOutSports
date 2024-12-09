@@ -64,13 +64,14 @@
     </div>
     <!--Contacts Section-->
     <div class="Contact__Container" id="ContactUs">
-        <form action="" class="contact-left">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
             <div class="Contact__Title">
                 <h2>Contact Us Today</h2>
                 <p>Fill out the form below</p>
                 <p>Text or call us at 416 884 9191</p>
                 <p>Email us at lights.out.sports@outlook.com</p>
             </div>
+            <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
             <input type="text" name="name" placeholder="Enter your name" class="Contact__input" required>
             <input type="email" name="email" placeholder="Enter your email" class="Contact__input" required>
             <input type="phone" name="phone" placeholder="Enter your phone #" class="Contact__input">
