@@ -363,14 +363,17 @@ html,body
 .Gallery__img{
   width: 20vw;
   height: 100%;
+  margin-bottom: 0rem;
 }
 @media screen and (max-width: 768px){
   .Photo__holder{
     flex-direction:column;
+    margin-bottom: 0rem;
   }
   .Gallery__img{
     width: 80vw;
     height: 100%;
+    margin-bottom: 1rem;
   }
 }
 /* Contact page */
