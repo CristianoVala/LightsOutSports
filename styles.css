@@ -482,6 +482,7 @@ html,body
     background: #808080;
     padding: 1rem;
     width: 90vw;
+    margin-bottom: 1rem;
 }
 .Invite__info p{
     padding: 2rem;
