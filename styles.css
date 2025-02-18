@@ -456,6 +456,39 @@ html,body
      padding-left: 1.5rem;
   }
 }
+
+/* Invitations section*/
+.Invite__header{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:center;
+  width: 100vw;
+}
+.Invite__header h1{
+
+}
+.Invite__header p{
+    padding: 1rem;
+    font-size: clamp(1rem, 4vw, 1.5rem);
+    color: white;
+}
+.pdf{
+  padding: 2rem;
+  width:100vw;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:center;
+}
+.invites{
+  width: 60vw;
+}
+@media screen and (max-width: 820px) {
+  .invites{
+    width: 90vw;
+  }
+}
 /* footer section*/
 .Dtech__tag{
     width: 50%;
