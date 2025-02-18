@@ -465,6 +465,7 @@ html,body
   flex-direction:column;
   width: 100vw;
   text-align:center;
+  margin-bottom: 1rem;
 }
 .Invite__header h1{
     text-transform: uppercase;
