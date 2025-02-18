@@ -467,7 +467,10 @@ html,body
   text-align:center;
 }
 .Invite__header h1{
-
+    text-transform: uppercase;
+    color: white;
+    padding: 1rem;
+    font-size: clamp(2rem, 8vw, 5rem);
 }
 .Invite__header p{
     padding: 2rem;
