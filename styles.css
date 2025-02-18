@@ -492,6 +492,12 @@ html,body
   .invites{
     width: 90vw;
   }
+  .Invite__header h1{
+    text-transform: uppercase;
+    color: white;
+    padding: 1rem;
+    font-size: clamp(2rem, 8vw, 5rem);
+  }
   .Invite__header p{
     padding: 1rem;
     font-size: clamp(1rem, 4vw, 1.5rem);
