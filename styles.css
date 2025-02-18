@@ -480,6 +480,7 @@ html,body
     border-radius: 2rem;
     background: #808080;
     padding: 1rem;
+    width: 90vw;
 }
 .Invite__info p{
     padding: 2rem;
@@ -507,7 +508,7 @@ html,body
     padding: 1rem;
     font-size: clamp(2rem, 8vw, 5rem);
   }
-  .Invite__header p{
+  .Invite__info p{
     padding: 1rem;
     font-size: clamp(1rem, 4vw, 1.5rem);
     color: white;
