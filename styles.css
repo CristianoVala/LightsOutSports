@@ -148,7 +148,7 @@ html,body
 }
 .Waiver{
   width: 60vw;
-  height: auto;
+  height: 100%;
   padding: 2rem;
   border-radius: 2rem;
 }
@@ -160,12 +160,6 @@ html,body
   flex-direction: column;
 }
 @media screen and (max-width: 888px){
-  .Waiver{
-  width: 100vw;
-  height: auto;
-  padding: 0.5rem;
-  border-radius: 2rem;
-}
 .Payment{
   display:flex;
   flex-direction:column;
@@ -206,7 +200,7 @@ html,body
     height: 40vw;
     padding:1rem;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 888px){
     .hero{
         flex-direction:column;
         height: 90vh;
@@ -214,6 +208,11 @@ html,body
     .hero__img{
         width:70vw;
         height: 70vw;
+    }
+    .Waiver{
+      width: 95vw;
+      height: 100%;
+      border-radius: 2rem;
     }
 }
 .hero__content{
