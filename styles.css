@@ -161,7 +161,7 @@ html,body
 }
 @media screen and (max-width: 888px){
   .Waiver{
-  width: 95vw;
+  width: 100vw;
   height: auto;
   padding: 0.5rem;
   border-radius: 2rem;
