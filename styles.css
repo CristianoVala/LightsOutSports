@@ -148,7 +148,7 @@ html,body
 }
 .Waiver{
   width: 60vw;
-  height: 0vh;
+  height: auto;
   padding: 2rem;
   border-radius: 2rem;
 }
@@ -159,11 +159,11 @@ html,body
   justify-content:center;
   flex-direction: column;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 888px){
   .Waiver{
-  width: 90vw;
-  height: 360vh;
-  padding: 2rem;
+  width: 95vw;
+  height: auto;
+  padding: 0.5rem;
   border-radius: 2rem;
 }
 .Payment{
