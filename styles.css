@@ -212,6 +212,7 @@ html,body
     .Waiver{
       width: 95vw;
       height: 100%;
+      padding: 0rem;
       border-radius: 2rem;
     }
 }
