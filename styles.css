@@ -146,7 +146,19 @@ html,body
   width: 100vw;
   height: 50vh;
 }
+.Waiver{
+  width: 60vw;
+  height: 90vh;
+  padding: 2rem;
+  border-radius: 2rem;
+}
 @media screen and (max-width: 768px){
+  .Waiver{
+  width: 90vw;
+  height: 90vh;
+  padding: 2rem;
+  border-radius: 2rem;
+}
 .Payment{
   display:flex;
   flex-direction:column;
