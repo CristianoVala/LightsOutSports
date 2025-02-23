@@ -152,6 +152,13 @@ html,body
   padding: 2rem;
   border-radius: 2rem;
 }
+.waiver__holder{
+  width:100vw;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction: column;
+}
 @media screen and (max-width: 768px){
   .Waiver{
   width: 90vw;
