@@ -51,6 +51,7 @@ html,body
     right: 20px;
 }
 #check{display: none;}
+
 .navbar{
     width: 100vw;
     background: var(--blue);
@@ -118,7 +119,7 @@ html,body
         align-items: center;
         justify-content: center;
     }
-    .open-menu, .close-menu{display:block;}
+     .open-menu, .close-menu{display:block;}
     #check:checked ~ .navbar__menu {right: 0;}
 }
 .pCalendar{
