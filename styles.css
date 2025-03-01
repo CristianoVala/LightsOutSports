@@ -119,7 +119,7 @@ html,body
         justify-content: center;
     }
     .open-menu, .close-menu{display:block;}
-    #check:checked ~ .navbar__menu {right: 2;}
+    #check:checked ~ .navbar__menu {right: 0;}
 }
 .pCalendar{
   width: 95vw;
