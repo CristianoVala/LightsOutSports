@@ -123,7 +123,7 @@ html,body
      .open-menu, .close-menu{display:block;}
     #check:checked ~ .navbar__menu {right: 0;}
 }
-.pCalendar{
+.Calendar{
   width: 95vw;
   height: 100vh;
   background: white;
