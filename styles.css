@@ -43,8 +43,8 @@ html,body
     display: none;
 }
 .open-menu{
-    top: 50%;
-    right: 0.5vw;
+  top: 50%;
+    right: 20px;
     transform: translateY(-50%);
 }
 .close-menu{
