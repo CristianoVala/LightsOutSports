@@ -252,6 +252,7 @@ html,body
     color: var(--grey);
     margin-bottom: 1.5rem;
     margin-top: 1rem;
+    text-align:center;
 }
 .button:hover{
     padding: 1.2rem 2.2rem;
@@ -281,6 +282,15 @@ html,body
   object-fit: cover;
   margin-bottom: 2rem;
 }
+.PA__img{
+  display: block;
+  width: 40vw;
+  padding: 1rem;
+  border: none;
+  border-radius: 2rem;
+  object-fit: cover;
+  margin-bottom: 2rem;
+}
 @media screen and (max-width: 768px){
   .Container{
     display:flex;
@@ -297,7 +307,16 @@ html,body
     border-radius: 2rem;
     object-fit: cover;
     margin-bottom: 0rem;
-}
+  }
+  .PA__img{
+    display: block;
+    width: 80vw;
+    padding: 1rem;
+    border: none;
+    border-radius: 2rem;
+    object-fit: cover;
+    margin-bottom: 0rem;
+  }
 }
 .package{
   text-align:left;
