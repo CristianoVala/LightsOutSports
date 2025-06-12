@@ -321,6 +321,11 @@ html,body
 .package{
   text-align:left;
 }
+.package p{
+    padding: 0.1rem;
+    font-size: clamp(1rem, 4vw, 1.5rem);
+    color: white;
+}
 .AboutUs{
     display:flex;
     justify-content:center;
@@ -381,6 +386,11 @@ html,body
 }
 .Aboutus__info p{
     padding: 1rem;
+    font-size: clamp(1rem, 4vw, 1.5rem);
+    color: white;
+}
+.package p{
+    padding: 0.1rem;
     font-size: clamp(1rem, 4vw, 1.5rem);
     color: white;
 }
