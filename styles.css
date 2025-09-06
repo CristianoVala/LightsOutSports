@@ -180,7 +180,7 @@ html,body
     height: 20vh;
   }
 }
-.Payment h1{
+.Payment h2{
   text-transform: uppercase;
   font-size: clamp(1rem, 4vw, 2.5rem);
   color:var(--blue);
@@ -340,7 +340,7 @@ html,body
     color: white;
     padding: 1rem;
 }
-.Title h1{
+.Title h2{
     font-size: clamp(2rem, 8vw, 5rem);
 }
 .Aboutus__info{
@@ -519,7 +519,7 @@ html,body
   text-align:center;
   margin-bottom: 1rem;
 }
-.Invite__header h1{
+.Invite__header h2{
     text-transform: uppercase;
     color: white;
     padding: 1rem;
@@ -556,7 +556,7 @@ html,body
   .invites{
     width: 90vw;
   }
-  .Invite__header h1{
+  .Invite__header h2{
     text-transform: uppercase;
     color: white;
     padding: 1rem;
