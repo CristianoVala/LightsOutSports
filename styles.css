@@ -88,7 +88,7 @@ html,body
 }
 .navbar__link{
     color: var(--grey);
-    font-size: clamp(0.8rem, 5vw, 1.2rem);
+    font-size: clamp(0.8rem, 5vw, 1.3rem);
     text-decoration: none;
     padding: 0rem 0.5rem;
 }
