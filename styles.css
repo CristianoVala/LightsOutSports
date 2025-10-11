@@ -129,7 +129,7 @@ html,body
   width: 100vw;
   dispaly:flex;
   justify-content:center;
-  align-itmes:center;
+  align-items:center;
 }
 .Offer__img{
   width: 100%;
@@ -196,7 +196,7 @@ html,body
 }
 
 /* Hide banner when checkbox is checked */
-.hide-offer:checked ~ .special-offer {
+.hide-offer:checked ~ .Offer__Holder {
   display: none;
 }
 
