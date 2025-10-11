@@ -130,8 +130,6 @@ html,body
   display:flex;
   justify-content:center;
   align-items:center;
-  position:sticky;
-  top:150px;
 }
 .Offer__img{
   width: 100%;
@@ -154,9 +152,10 @@ html,body
   width: 50vw;
   height: 50vw;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  position: relative;
   animation: pulse 2s infinite;
   text-align: center;
+  position:sticky;
+  top:150px;
 }
 @media screen and (max-width: 900px){
   .special-offer{
