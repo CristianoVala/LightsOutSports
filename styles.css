@@ -130,6 +130,8 @@ html,body
   display:flex;
   justify-content:center;
   align-items:center;
+  position:sticky;
+  top:150px;
 }
 .Offer__img{
   width: 100%;
