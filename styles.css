@@ -124,6 +124,13 @@ html,body
     #check:checked ~ .navbar__menu {right: 0;}
 }
 
+.Offer__Holder{
+  background:var(--grey);
+  width: 100vw;
+  dispaly:flex;
+  justify-content:center;
+  align-itmes:center;
+}
 .Offer__img{
   width: 100%;
   height: 100%;
@@ -145,11 +152,7 @@ html,body
   width: 50vw;
   height: 50vw;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  position: fixed;
-  top: 10;
-  left: 40vw;
-  right: 0;
-  bottom: 0;
+  position: relative;
   animation: pulse 2s infinite;
   text-align: center;
 }
