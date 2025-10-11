@@ -145,7 +145,11 @@ html,body
   width: 90vw;
   height: 90vw;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  position: relative;
+  position: fixed;
+  top: 10;
+  left: 0;
+  right: 0;
+  bottom: 0;
   animation: pulse 2s infinite;
   text-align: center;
 }
@@ -190,9 +194,9 @@ html,body
 
 /* Pulse animation */
 @keyframes pulse {
-  0% { transform: scale(1); box-shadow: 0 0 10px rgba(230,57,70,0.4); }
-  50% { transform: scale(1.05); box-shadow: 0 0 20px rgba(230,57,70,0.6); }
-  100% { transform: scale(1); box-shadow: 0 0 10px rgba(230,57,70,0.4); }
+  0% { transform: scale(1); box-shadow: 0 0 10px rgba(252,15,192,0.1); }
+  50% { transform: scale(1.05); box-shadow: 0 0 20px rgba(252,15,192,0.8); }
+  100% { transform: scale(1); box-shadow: 0 0 10px rgba(252,15,192,0.1); }
 }
 .Calendar{
   width: 95vw;
@@ -262,12 +266,6 @@ html,body
   color:white;
 }
 /* Hero page */
-.hero__section{
-    height: 115vh;
-    width: 100vw;
-     align-items:center;
-    justify-content:center;
-}
 .hero{
     background:var(--grey);
     height: 115vh;
