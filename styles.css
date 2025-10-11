@@ -142,18 +142,23 @@ html,body
   padding: 1.5rem 2rem;
   border-radius: 15px;
   display: inline-block;
-  width: 90vw;
-  height: 90vw;
+  width: 50vw;
+  height: 50vw;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   position: fixed;
   top: 10;
-  left: 0;
+  left: 40vw;
   right: 0;
   bottom: 0;
   animation: pulse 2s infinite;
   text-align: center;
 }
-
+@media screen and (max-width: 900px){
+  .special-offer{
+     width: 90vw;
+    height: 90vw;
+  }
+}
 /* Close button */
 .close-offer {
   position: absolute;
