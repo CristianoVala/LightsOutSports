@@ -24,6 +24,7 @@
         <a href="/" class="navbar__logo"><img src="./images/Logo.png" alt="Logo" class="logoimg"/></a>
         <input type="checkbox" id="check">
         <div class="navbar__menu">
+            <a href="/Contest.html" class="navbar__link">Win an Event!</a>
             <a href="/#AboutUs" class="navbar__link">About Us</a>
             <a href="/Training.html" class="navbar__link">Training</a>
             <a href="/Camps.html" class="navbar__link">Camps</a>
@@ -45,4 +46,50 @@
        <h2> Win an Event! </h2>
      </div>
     </div>
+    
+    <div class="FormHolder">
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfvwZ0cCT8oPO34Zr5Ea5Tvwgk5m_6uevxCqQQU_Hlkovm5Kw/viewform?embedded=true" width="50vw" height="90vw" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+    
+        <!--Footer section-->
+    <div id="footer" class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__desc">
+                <h1>Lights Out Sports</h1>
+                <p>10 Alderson Court,  Alliston </p>
+                <p id="phone">705 435 0319</p>
+                <p id="email">lights.out.sports@outlook.com</p>
+            </div>
+            <div class="footer__links">
+                <h2 class="footer__title">Social Media</h2>
+                <a href="https://www.instagram.com/lights.out.sports?utm_source=qr&igsh=MWxoN2RyemxmMXE2aA==" class="footer__link">Instagram</a>
+                 <a href="https://m.facebook.com/61568322030877" class="footer__link">FaceBook</a>
+            </div>
+            </div>
+     <a href="https://dynamic-technologies.ca"><img class="Dtech__tag" src="./images/Dtech tag.png" alt=" " class="d-tech"/></a>
+    </div>
+    
+   <script type="text/javascript">
+        window.addEventListener('scroll', reveal);
+
+        function reveal(){
+            var reveals = document.querySelectorAll('.reveal');
+
+            for(var i = 0; i < reveals.length; i++){
+                
+                var windowheight = window.innerHeight;
+                var revealtop = reveals[i].getBoundingClientRect().top;
+                var revealpoint = 150;
+
+                if(revealtop < windowheight - revealpoint){
+                    reveals[i].classList.add('active');
+                }
+                else{
+                    reveals[i].classList.remove('active');
+                }
+            }
+        }
+    </script>
+    <script src="app.js"></script>
+</body>
+</html>
