@@ -45,7 +45,7 @@ html,body
 }
 .Contest__form{
   width: 50vw;
-  height: 120vh;
+  height: 130vh;
 }
 /* navbar section */
 .open-menu, .close-menu{
@@ -112,7 +112,7 @@ html,body
 @media screen and (max-width: 900px){
    .Contest__form{
      width: 90vw;
-     height: 120vh;
+     height: 130vh;
    }
   .navbar__menu{
         flex-direction: column;
