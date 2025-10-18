@@ -36,7 +36,7 @@ html,body
 
 .FormHolder{
   width:100vw;
-  height: 150vh;
+  height: 130vh;
   display:flex;
   justify-content:center;
   align-items:center;
