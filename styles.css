@@ -47,98 +47,128 @@ html,body
   width: 50vw;
   height: 130vh;
 }
-/* navbar section */
-.open-menu, .close-menu{
-    position: absolute;
-    color: white;
-    cursor: pointer;
-    font-size: 1.5rem;
+/* ---------- GENERAL NAVBAR ---------- */
+.navbar {
+    width: 100%;
+    height: 80px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar__logo img {
+    height: 60px;
+}
+
+/* Hide checkbox */
+#check {
     display: none;
 }
-.open-menu{
-  top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
-}
-.close-menu{
-    top: 20px;
-    right: 20px;
-}
-#check{display: none;}
 
-.navbar{
-    width: 100vw;
-    background: var(--blue);
-    background-size:cover;
-    height: 100px;
-    padding: 1rem calc((50vw - 1600px) / 2);
+/* ---------- DESKTOP MENU ---------- */
+.navbar__menu {
     display: flex;
-    justify-content: space-between;
+    gap: 25px;
     align-items: center;
-    position:sticky;
-    top:0px;
-    text-align:center;
-    z-index:100;
 }
-.nav__bottom{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background:var(--pink);
-    height:10px;
-    position: sticky;
-    top:100px;
-    padding: 1rem;
-    z-index:90;
-    font-size: 0.9rem;
-    color:white;
-}
-.navbar__logo{
-    color: var(--grey);
+
+.navbar__link {
+    color: rgb(252,15,192);
     text-decoration: none;
-    padding-left: 0.5rem;
-    font-size: 1rem;
+    font-weight: 600;
+    font-size: 18px;
+    transition: 0.3s;
 }
-.navbar__link{
-    color: var(--grey);
-    font-size: clamp(0.8rem, 5vw, 1.3rem);
-    text-decoration: none;
-    padding: 0rem 0.5rem;
+
+.navbar__link:hover {
+    color: #82EEFD;
 }
-.navbar__link:hover{
-    background: rgba(70,8,3,0.3);
-    text-decoration: underline;
+
+/* Hamburger icons */
+.open-menu, .close-menu {
+    font-size: 30px;
+    color: rgb(252,15,192);
+    cursor: pointer;
+    display: none;
 }
+
+/* ---------- MOBILE STYLES ---------- */
+@media (max-width: 900px) {
+
+    .open-menu {
+        display: block;
+    }
+
+    .navbar__menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 70%;
+        height: 100%;
+        background: white;
+        flex-direction: column;
+        padding-top: 120px;
+        gap: 20px;
+        transition: 0.4s ease;
+        box-shadow: -3px 0 10px rgba(0,0,0,0.15);
+    }
+
+    /* Slide-out menu */
+    #check:checked ~ .navbar__menu {
+        right: 0;
+    }
+
+    .close-menu {
+        display: block;
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        font-size: 32px;
+    }
+
+    .navbar__link {
+        font-size: 20px;
+        color: rgb(252,15,192);
+    }
+
+    /* ---------- SOCIAL ICONS UNDER MENU ---------- */
+    .navbar__socials {
+        margin-top: 30px;
+        display: flex;
+        gap: 25px;
+    }
+
+    .navbar__socials a {
+        font-size: 30px;
+        color: #82EEFD;
+        transition: 0.3s ease;
+    }
+
+    .navbar__socials a:hover {
+        color: rgb(252,15,192);
+    }
+}
+
+/* Bottom Nav Divider */
+.nav__bottom {
+    width: 100%;
+    height: 6px;
+    background: linear-gradient(90deg, #82EEFD, rgb(252,15,192));
+    margin-top: 80px;
+}
+
 @media screen and (max-width: 900px){
    .Contest__form{
      width: 90vw;
      height: 130vh;
    }
-  .navbar__menu{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 40%;
-        height:100%;
-        position: fixed;
-        top: 0;
-        right: -100%;
-        z-index:100;
-        background:var(--blue);
-        background-size:cover;
-        transition: all 0.2s ease-in-out;
-         overflow-y: scroll;
-    }
-    .navbar__link{
-        padding:10px;
-        margin:40px;
-        display: flex;
-        felx-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-     .open-menu, .close-menu{display:block;}
-    #check:checked ~ .navbar__menu {right: 0;}
 }
 
 .Offer__Holder{
