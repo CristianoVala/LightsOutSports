@@ -715,7 +715,8 @@ html,body
 .footer {
     width: 100%;
     background: #000; /* Black background */
-    border-top: 10px solid linear-gradient(90deg, #82EEFD, rgb(252,15,192)) /* Thick pink border */
+    border-top: 10px solid; /* Thick pink border */
+    border-color: linear-gradient(90deg, #82EEFD, rgb(252,15,192));
     padding: 40px 20px;
     color: white;
     display: flex;
