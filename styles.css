@@ -163,7 +163,7 @@ html,body
 .nav__bottom {
     width: 100%;
     height: 10px;
-    background: linear-gradient(90deg, #82EEFD, rgb(252,15,192));
+    background: rgb(252,15,192);
     margin-top: 80px;
 }
 
@@ -715,8 +715,7 @@ html,body
 .footer {
     width: 100%;
     background: #000; /* Black background */
-    border-top: 10px solid; /* Thick pink border */
-    border-color: linear-gradient(90deg, #82EEFD, rgb(252,15,192));
+    border-top: 10px solid rgb(252,15,192); /* Thick pink border */
     padding: 40px 20px;
     color: white;
     display: flex;
