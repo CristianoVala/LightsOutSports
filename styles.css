@@ -279,16 +279,21 @@ html,body
 }
 .Calendar {
   position: absolute; /* required for top to work */
-  top: -20vh;         /* amount cut off */
+  top: -25vh;         /* amount cut off */
   left: 0;
 
   width: 100%;
-  height: calc(100% + 20vh); /* compensate for shift */
+  height: calc(100% + 25vh); /* compensate for shift */
 
   border: none;
   background: white;
 }
-
+@media (max-width: 900px) {
+  .Calendar{
+    top: -50vh;
+    height: calc(100% + 50vh);
+  }
+}
 .Payment{
   display:flex;
   flex-direction:column;
