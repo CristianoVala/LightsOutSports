@@ -293,8 +293,8 @@ html,body
     height: 130vh;
   }
   .Calendar{
-    top: -55vh;
-    height: calc(100% + 55vh);
+    top: -54vh;
+    height: calc(100% + 54vh);
   }
 }
 .Payment{
