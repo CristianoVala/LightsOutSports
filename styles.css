@@ -289,9 +289,12 @@ html,body
   background: white;
 }
 @media (max-width: 900px) {
+  .iframe_container{
+    height: 130vh;
+  }
   .Calendar{
-    top: -50vh;
-    height: calc(100% + 50vh);
+    top: -55vh;
+    height: calc(100% + 55vh);
   }
 }
 .Payment{
