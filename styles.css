@@ -268,7 +268,7 @@ html,body
   border: none;
   border-radius: 2rem;
   overflow: clip;
-  margin-bottom: 3rem;
+  top: -3rem;
 }
 .Calendar__Container{
   display:flex;
@@ -283,11 +283,7 @@ html,body
   background: white;
   border: none;
   border-radius: 2rem;
-  padding: 2rem;
-  display:flex;
-  flex-direction:column;
-  justify-content: center;
-  align-items:center;
+  position: relative;
   overflow: clip;
 }
 
