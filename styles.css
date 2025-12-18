@@ -267,7 +267,8 @@ html,body
   background: white;
   border: none;
   border-radius: 2rem;
-  overflow: clip
+  overflow: clip;
+  margin-bottom: 3rem;
 }
 .Calendar__Container{
   display:flex;
