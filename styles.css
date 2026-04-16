@@ -354,6 +354,38 @@ html,body
   font-size: clamp(1rem, 4vw, 2.5rem);
   color:white;
 }
+
+.HighFive__Container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  flex-direction:column;
+}
+.HighFive__Container h3{
+    text-transform: uppercase;
+    color: white;
+    padding: 1rem;
+    font-size: clamp(2rem, 8vw, 5rem);
+}
+.HighFive__Container p{
+    padding: 1rem;
+    font-size: clamp(1rem, 4vw, 1.5rem);
+    color: white;
+}
+.highfive__img{
+  width: 25vw;
+  height: 25vw;
+  padding: 1rem;
+}
+@media screen and (max-width: 888px){
+  .highfive__img{
+    width: 90vw;
+    height: 90vw;
+    padding: 1rem;
+  }
+}
+
 /* Hero page */
 .hero{
     background:var(--grey);
