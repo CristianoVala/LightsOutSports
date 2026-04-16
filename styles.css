@@ -375,13 +375,13 @@ html,body
 }
 .highfive__img{
   width: 25vw;
-  height: 25vw;
+  height: 35vw;
   padding: 1rem;
 }
 @media screen and (max-width: 888px){
   .highfive__img{
     width: 90vw;
-    height: 90vw;
+    height: 100vw;
     padding: 1rem;
   }
 }
